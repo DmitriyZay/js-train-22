@@ -61,7 +61,7 @@ class Version {
  
  static restore (){
 	this.#versions.pop();
-	this.#versions[this.#versions.length - 1]
+	return this.#versions[this.#versions.length - 1]
  }
   // та повертає останню збережену версію тексту з масиву версій this.#versions[this.#versions.length - 1] .
 }
